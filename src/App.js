@@ -12,7 +12,7 @@ import Cats from "./components/cats/Cats";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/buoi7bt1">
+      <BrowserRouter basename="/buoi7bt1"> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
